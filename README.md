@@ -21,7 +21,7 @@ This project is an API built using **Java, Java Spring**
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Jason02gabriel/bossabox-challenge-api.git
+https://github.com/Jason02gabriel/bossabox-challenge.git
 ```
 
 2. Install dependencies with Maven
