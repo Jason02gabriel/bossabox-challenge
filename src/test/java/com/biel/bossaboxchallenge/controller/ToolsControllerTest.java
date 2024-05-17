@@ -75,7 +75,7 @@ public class ToolsControllerTest {
         when(toolsService.findByTag("tag")).thenReturn(toolsList);
 
         // Act & Assert
-        mockMvc.perform(get("/tools/tag/tag"))
+        mockMvc.perform(get("/tools/tag/node"))
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$").isArray());
     }
